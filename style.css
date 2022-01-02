@@ -5,12 +5,46 @@
     font-style: italic;
     font-weight: normal;
 }
-@media screen and (max-width: 720px) {
-    .container{
-        width: 720px;
+/*media*/
+@media (max-width: 1878px) {
+    body{
+        width: 970px;
+
     }
-    
+    .container{
+        width: 1920px;
+    }
+
 }
+@media (max-width: 992px) {
+    body {
+        width: 750px;
+
+    }
+    .container{
+        width: 1920px;
+    }
+    .header-content{
+        width: 1880px;
+    }
+}
+@media (max-width: 767px) {
+    body{
+        max-width: none;
+
+    }
+    .container{
+        width: 1920px;
+    }
+    .header-content{
+        width: 1880px;
+    }
+
+}
+
+
+
+/*end media*/
 html {
     -webkit-text-size-adjust : none;
     text-size-adjust         : none;
@@ -27,18 +61,20 @@ textarea {
     box-shadow         : none;
 }
 .container{
-    width: 1920px;
+    max-width: 1920px;
     margin:0 auto;
 }
 body{
-    width: 1920px;
+    max-width: 1920px;
     margin:0 auto;
+
+
 
 }
 .header-content{
     height: 950px;
     background: url("bgc.svg");
-    width: 1920px;
+
     margin-left: -8px;
     margin-top: -8px;
 
@@ -220,7 +256,7 @@ h2{
     z-index: 0;
     top:1150px;
     margin-left: 5px;
-    margin-top: 5px;
+    margin-top: -3px;
 }
 .button-catalog button:hover{
     background: #333333;
@@ -328,6 +364,11 @@ table{
     font-size: 26px;
     margin-bottom: -20px;
     opacity: 90%;
+}
+.useful-states td{
+    -webkit-box-shadow: 0px 4px 83px -25px rgba(34, 60, 80, 0.32);
+    -moz-box-shadow: 0px 4px 83px -25px rgba(34, 60, 80, 0.32);
+    box-shadow: 0px 4px 83px -25px rgba(34, 60, 80, 0.32);
 }
 .advices{
     display: flex;
@@ -453,7 +494,7 @@ li p{
     background: transparent;
     border:1px solid white;
     position: absolute;
-    left: 895px;
+    left: 885px;
 
 }
 .send-block p{
@@ -479,7 +520,7 @@ footer li{
     margin-bottom: 10px;
 }
 footer{
-    margin-top: 100px;
+    padding-top:100px;
 }
 .footer-info{
     display: flex;
