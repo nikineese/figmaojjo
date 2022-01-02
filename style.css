@@ -28,8 +28,11 @@ textarea {
 }
 .container{
     width: 1920px;
+    margin:0 auto;
 }
 body{
+    width: 1920px;
+    margin:0 auto;
 
 }
 .header-content{
