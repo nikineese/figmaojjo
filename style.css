@@ -245,6 +245,7 @@ h2{
     letter-spacing: 0.1em;
     text-align: center;
     z-index: 1;
+    position: relative;
 }
 .back-block{
     position: absolute;
@@ -254,21 +255,17 @@ h2{
     justify-content: space-around;
     border: 1px solid #D6D6D6;
     z-index: 0;
-    top:1150px;
     margin-left: 5px;
-    margin-top: -3px;
+    margin-top: -50px;
 }
 .button-catalog button:hover{
     background: #333333;
     color: white;
     margin-left: 6px;
-    margin-top: 6px;
     border: none;
+    top: 6px;
 }
-.button-catalog button{
-    z-index: 1;
-    position: relative;
-}
+
 .catalog h3{
     margin-bottom: -20px;
 }
@@ -276,14 +273,9 @@ h2{
 .table-block{
     height: 280px;
     width: 350px;
-
-
-
 }
 td{
     padding:0;
-
-
 }
 td:hover{
     opacity: 80%;

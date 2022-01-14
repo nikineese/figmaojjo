@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, user-scalable=0, initial-scale=1, maximum-scale=1">
     <title>OJJO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
     <link rel="shortcut icon" href="logo.svg" type="img/svg">
-    <link rel="script" href="regform.js">
 </head>
 <body>
-<div class="container header-content">
+<div  class="container header-content">
     <header>
     <div class="head-text">
       <span><a href="#">Контрагентам</a></span>
@@ -43,7 +43,7 @@
        <img src="brand.svg" alt="brand-svg">
    </div>
     </div>
-<section class="container catalog">
+<section class="container catalog" data-aos="fade-right">
     <h3>К мероприятиям</h3>
     <h2>Настоящая крастота здесь!</h2>
     <div class="buttons-catalog">
@@ -69,7 +69,7 @@
         </div>
         <div class="button-catalog">
             <button>РЕДКОСТЬ</button>
-            <div class="back-block"></div>
+            <div class="back-block">М</div>
         </div>
     </div>
     <table>
@@ -85,31 +85,31 @@
         </tr>
     </table>
 </section>
-<section class="container black-block">
+<section data-aos="fade-up" class="container black-block">
 <h3>Не знаете что выбрать?</h3>
 <h2 style="color: white">Посетите наши салоны в Москве</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque<br> egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec<br> pretium id dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut ultrices<br> imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.</p>
 <button class="btn">НАШИ САЛОНЫ</button>
 </section>
-<section class="container useful-states">
+<section data-aos="fade-up" class="container useful-states">
     <h3>Полезные статьи</h3>
     <h2>Лучшие советы по подбору дорогих подарков</h2>
     <table class="advices">
         <tr>
-            <td background="advice1.svg" class="advice"><a href="joke.html" target="_blank"><span>Как выбрать<br>
+            <td background="advice1.svg" data-aos="flip-left" class="advice"><a href="joke.html" target="_blank"><span>Как выбрать<br>
                 часы для своей<br>
                 будущей жены</span></a></td>
-            <td background="advice2.svg" class="advice"><a href="joke.html" target="_blank"><span>Запонки для мужа:<br>
+            <td background="advice2.svg" data-aos="flip-down" class="advice"><a href="joke.html" target="_blank"><span>Запонки для мужа:<br>
                 7 ключевых правил<br>
                 покупки аксессуара</span></a></td>
-            <td background="advice3.svg" class="advice"><a href="joke.html" target="_blank"><span>Как выбрать<br>
+            <td background="advice3.svg" data-aos="flip-right" class="advice"><a href="joke.html" target="_blank"><span>Как выбрать<br>
                 обручальные кольца<br>
                 молодоженам</span></a></td>
         </tr>
     </table>
     <button class="btn">ЧИТАТЬ НАШ БЛОГ</button>
 </section>
-<section class="container social">
+<section data-aos="flip-up" class="container social">
     <h3>#ojjo_jewerly</h3>
     <h2>Мы в социальных сетях</h2>
     <div class="wrapper">
@@ -124,7 +124,7 @@
         <div class="box"><iframe width="555" height="300" src="https://www.youtube.com/embed/L6HIhNivFJw" frameborder="0"></iframe></div>
     </div>
 </section>
-<section class="container black-block">
+<section data-aos="fade-up" class="container black-block">
     <h3>Полезные советы и персональный предложения</h3>
     <h2>Эксклюзивная рассылка</h2>
     <div class="send-block">
@@ -195,5 +195,7 @@
         </div>
     </div>
 </footer>
+<script src="aos.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
